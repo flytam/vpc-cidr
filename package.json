@@ -1,0 +1,28 @@
+{
+    "name": "vpc-cidr",
+    "version": "1.0.0",
+    "description": "A private network CIDR setup validates the data model",
+    "keywords": [
+        "cidr",
+        "model",
+        "vpc"
+    ],
+    "main": "dist/index.js",
+    "scripts": {
+        "test": "jest",
+        "build": "rm -rf ./dist && tsc "
+    },
+    "homepage": "https://github.com/flytam/vpc-cidr#readme",
+    "author": "flytam",
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/flytam/vpc-cidr.git"
+    },
+    "license": "MIT",
+    "devDependencies": {
+        "@types/jest": "^24.0.23",
+        "jest": "^24.9.0",
+        "ts-jest": "^24.2.0",
+        "typescript": "^3.7.4"
+    }
+}
